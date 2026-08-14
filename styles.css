@@ -157,9 +157,9 @@ h3{
 
     padding:15px 30px;
 
-    background: black;
+    color: black;
 
-    color:#F3971F;
+    border: 2px solid black;
 
     text-decoration:none;
 
@@ -170,7 +170,9 @@ h3{
 
 .button:hover{
 
-    background: rgb(22, 22, 22);
+    background: black;
+
+    color:#F3971F;
 
 }
 
@@ -196,12 +198,23 @@ footer hr{
 
 footer p{
 
-    margin-bottom:8px;
+    margin-bottom: 15px;
 
     font-size:15px;
 
     color:white;
 
+}
+
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p img {
+    vertical-align: middle;
+    width: 20px;
+    margin-right: 3px;
 }
 
 @media screen and (max-width:600px){
